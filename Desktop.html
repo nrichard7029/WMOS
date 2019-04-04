@@ -1,0 +1,41 @@
+<link rel="stylesheet" href="./System/UI/material.min.css">
+<script src="./System/UI/material.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<!-- Launcher -->
+<style>
+.demo-layout-transparent {
+  background: url('../System/UI/Wallpaper.png') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+</style>
+
+<div class="demo-layout-transparent mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header--transparent">
+    <div class="mdl-layout__header-row">
+      <div class="mdl-chip mdl-chip--contact">
+      <div class="mdl-chip__contact mdl-color--teal">A</div>
+      <div class="mdl-chip__text">Administrator</div> </div>
+      <!-- Title -->
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
+      <nav class="mdl-navigation">
+        <!-- Mini FAB button -->
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab">
+          <i class="material-icons">add</i>
+        </button>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+      </nav>
+    </div>
+  </header>
+  <main class="mdl-layout__content">
+  </main>
+</div>
